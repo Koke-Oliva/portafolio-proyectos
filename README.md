@@ -21,10 +21,13 @@ Aquí encontrarás una selección de mis trabajos más relevantes, que abarcan d
 
 ## 🚀 Proyectos Destacados  
 
-### 🔬 [K-Means Clustering - Repaso](https://github.com/Koke-Oliva/mi-cv)  
-Segmentación de datos utilizando **K-Means**, desde normalización de variables hasta la validación con métricas de cohesión y separación.  
+### 🧠 [Interpretabilidad de Scoring Crediticio](https://github.com/Koke-Oliva/Interpretabilidad-de-Scoring-Crediticio)
+Clasificación binaria de riesgo crediticio. Comparo **Regresión Logística (L1/L2)** vs **Random Forest** con **GridSearchCV**.  
+**Resultado:** Random Forest tunado lidera (**ROC-AUC ≈ 0.839**, **F1 ≈ 0.760**).  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Koke-Oliva/Interpretabilidad-de-Scoring-Crediticio/blob/main/Interpretabilidad_de_Scoring_Crediticio.ipynb)
 
-**Tecnologías:** ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)  
+**Tecnologías:** ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white) ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?logo=scikitlearn&logoColor=white)
+  
 
 ---
 
