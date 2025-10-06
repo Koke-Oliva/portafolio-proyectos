@@ -63,7 +63,23 @@ Aquí encontrarás una selección de mis trabajos más relevantes, que abarcan d
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?logo=scikitlearn&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?logo=plotly&logoColor=white)
 ![Seaborn](https://img.shields.io/badge/Seaborn-7c9ebf?logo=seaborn&logoColor=white)
- 
+
+---
+ ### ☁️ [MLOps en la Nube: Despliegue Automatizado de un Modelo Predictivo Real](https://github.com/Koke-Oliva/breast_cancer_api)
+
+[![MLOps](./images/ml_ops.png)](https://github.com/Koke-Oliva/breast_cancer_api)
+
+**Contexto:** proyecto de MLOps que implementa un flujo completo de *Machine Learning* con **Random Forest**, exponiendo el modelo como **API REST** mediante Flask, **contenedorizado con Docker** y con integración continua vía **GitHub Actions (CI/CD)**.  
+
+**Ciclo de vida:** entrenamiento del modelo, creación de API, contenedorización y despliegue automatizado en **GitHub Container Registry (GHCR)**.  
+
+**Tecnologías:**  
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?logo=flask&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=githubactions&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?logo=scikitlearn&logoColor=white)
+
 
 ---
 
@@ -72,12 +88,7 @@ Consultas SQL avanzadas para extracción y análisis de datos, con optimización
 
 **Tecnologías:** ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)  
 
----
-
-### 🤖 [API de Machine Learning con Flask](https://github.com/Koke-Oliva/breast_cancer_api)  
-Implementación de un modelo de predicción de cáncer de mama como servicio web usando Flask y Docker.  
-
-**Tecnologías:** ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)  
+---  
 
 ---
 
