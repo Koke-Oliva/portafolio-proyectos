@@ -100,10 +100,10 @@ Consultas SQL avanzadas para extracción y análisis de datos, con optimización
 ---
 
 ## 🎓 Certificaciones y Formación  
-- **Especialización en Machine Learning (198 hrs)** – Talento Digital para Chile.  
-- **Bootcamp Full Stack Java (480 hrs)** – Desafío Latam.  
+- **Especialización en Machine Learning (198 hrs)** – Beca Talento Digital para Chile – Dictada por Kibernum Capacitación S.A.  
+- **Bootcamp Full Stack Java (480 hrs)** – Beca Talento Digital para Chile - Dictada por Desafío Latam.  
 - **Diplomado en Data Science & Machine Learning** – PUCV.  
-- Cursos adicionales: Power BI, SQL, Python con Jupyter Notebook, IA Generativa.  
+- Cursos adicionales: Power BI, SQL.  
 
 ---
 
