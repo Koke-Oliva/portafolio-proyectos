@@ -50,7 +50,7 @@ Aquí encontrarás una selección de mis trabajos más relevantes, que abarcan d
 
 ### 🧠 [Clasificación de Notas Clínicas con BERT (NLP - Español)](https://github.com/Koke-Oliva/nlp-notas-clinicas-bert)
 
-[<img src="images/notas_clinicas.png" alt="Notas Clínicas BERT" width="400"/>](https://github.com/Koke-Oliva/nlp-notas-clinicas-bert)
+[<img src="images/notas_clinicas.png" alt="Notas Clínicas BERT" width="520"/>](https://github.com/Koke-Oliva/nlp-notas-clinicas-bert)
 
 **Contexto:** Modelo de procesamiento de lenguaje natural aplicado a notas clínicas médicas en español.  
 **Objetivo:** Clasificación de severidad (leve, moderado, severo) utilizando BERT.  
