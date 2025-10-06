@@ -66,7 +66,9 @@ Aquí encontrarás una selección de mis trabajos más relevantes, que abarcan d
 ---
  ### ☁️ [MLOps en la Nube: Despliegue Automatizado de un Modelo Predictivo Real](https://github.com/Koke-Oliva/breast_cancer_api)
 
-[![MLOps](./images/ml_ops.png)](https://github.com/Koke-Oliva/breast_cancer_api)
+<a href="https://github.com/Koke-Oliva/breast_cancer_api">
+  <img src="./images/ml_ops.png" alt="MLOps" width="520">
+</a>
 
 **Contexto:** proyecto de MLOps que implementa un flujo completo de *Machine Learning* con **Random Forest**, exponiendo el modelo como **API REST** mediante Flask, **contenedorizado con Docker** y con integración continua vía **GitHub Actions (CI/CD)**.  
 
