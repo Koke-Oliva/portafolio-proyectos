@@ -24,7 +24,7 @@ Aquí encontrarás una selección de mis trabajos más relevantes, que abarcan d
 ### 🧠 [Interpretabilidad de Scoring Crediticio](https://github.com/Koke-Oliva/Interpretabilidad-de-Scoring-Crediticio)
 
 <a href="https://github.com/Koke-Oliva/Interpretabilidad-de-Scoring-Crediticio">
-  <img src="images/score_crediticio.jpeg" alt="Interpretabilidad de Scoring Crediticio" width="720">
+  <img src="images/score_crediticio.jpeg" alt="Interpretabilidad de Scoring Crediticio" width="520">
 </a>
 
 **Contexto:** proyecto de clasificación para *credit scoring* con datos públicos (OpenML).  
