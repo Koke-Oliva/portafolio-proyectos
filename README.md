@@ -32,8 +32,7 @@ Aquí encontrarás una selección de mis trabajos más relevantes, que abarcan d
 **Enfoque:** split estratificado, escalado con `StandardScaler`, **Regresión Logística (L1/L2)** y **Random Forest** con **GridSearchCV** (`cv=5`, `roc_auc`).  
 **Resultado:** el **Random Forest tunado** lidera (**ROC-AUC ≈ 0.839**, **F1 ≈ 0.760**).
 
-[![Repo](https://img.shields.io/badge/Código-Repo-181717?logo=github&logoColor=white)](https://github.com/Koke-Oliva/Interpretabilidad-de-Scoring-Crediticio)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Koke-Oliva/Interpretabilidad-de-Scoring-Crediticio/blob/main/Interpretabilidad_de_Scoring_Crediticio.ipynb)
+
 
 **Tecnologías:**  
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
