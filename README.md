@@ -34,12 +34,14 @@ Aquí encontrarás una selección de mis trabajos más relevantes, que abarcan d
 
 
 
-**Tecnologías:**  
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![Transformers](https://img.shields.io/badge/Transformers-FF6F00?logo=huggingface&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?logo=scikitlearn&logoColor=white)
+**Librerías:** 
 ![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?logo=scikitlearn&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?logo=plotly&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-7c9ebf?logo=python&logoColor=white)
+![OpenML](https://img.shields.io/badge/OpenML-FF8C00?logo=openai&logoColor=white)
+
+
 
 
 
@@ -54,7 +56,7 @@ Aquí encontrarás una selección de mis trabajos más relevantes, que abarcan d
 **Objetivo:** Clasificación de severidad (leve, moderado, severo) utilizando BERT.  
 **Evaluación:** F1 Macro ≈ **0.84**, buen desempeño con control de sesgos.  
 
-**Tecnologías:**  
+**Librerías:**  
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![Transformers](https://img.shields.io/badge/Transformers-ffcc00?logo=huggingface&logoColor=black)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)
@@ -73,7 +75,7 @@ Aquí encontrarás una selección de mis trabajos más relevantes, que abarcan d
 
 **Ciclo de vida:** entrenamiento del modelo, creación de API, contenedorización y despliegue automatizado en **GitHub Container Registry (GHCR)**.  
 
-**Tecnologías:**  
+**Tecnologías y Librerías:**  
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![Transformers](https://img.shields.io/badge/Transformers-FF6F00?logo=huggingface&logoColor=white)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?logo=scikitlearn&logoColor=white)
