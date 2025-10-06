@@ -22,12 +22,28 @@ Aquí encontrarás una selección de mis trabajos más relevantes, que abarcan d
 ## 🚀 Proyectos Destacados  
 
 ### 🧠 [Interpretabilidad de Scoring Crediticio](https://github.com/Koke-Oliva/Interpretabilidad-de-Scoring-Crediticio)
-<img src="images/score_crediticio.jpeg" alt="Interpretabilidad de Scoring Crediticio" width="600" style="border-radius: 10px; margin-top: 10px; margin-bottom: 15px;"/>
 
-Clasificación binaria de riesgo crediticio. Comparo **Regresión Logística (L1/L2)** vs **Random Forest** con **GridSearchCV**.  
-**Resultado:** Random Forest tunado lidera (**ROC-AUC ≈ 0.839**, **F1 ≈ 0.760**).  
+<a href="https://github.com/Koke-Oliva/Interpretabilidad-de-Scoring-Crediticio">
+  <img src="images/score_crediticio.jpeg" alt="Interpretabilidad de Scoring Crediticio" width="720">
+</a>
 
-**Tecnologías:** ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white) ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?logo=scikitlearn&logoColor=white)
+**Contexto:** proyecto de clasificación para *credit scoring* con datos públicos (OpenML).  
+**Dataset:** `credit` (v1).  
+**Enfoque:** split estratificado, escalado con `StandardScaler`, **Regresión Logística (L1/L2)** y **Random Forest** con **GridSearchCV** (`cv=5`, `roc_auc`).  
+**Resultado:** el **Random Forest tunado** lidera (**ROC-AUC ≈ 0.839**, **F1 ≈ 0.760**).
+
+[![Repo](https://img.shields.io/badge/Código-Repo-181717?logo=github&logoColor=white)](https://github.com/Koke-Oliva/Interpretabilidad-de-Scoring-Crediticio)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Koke-Oliva/Interpretabilidad-de-Scoring-Crediticio/blob/main/Interpretabilidad_de_Scoring_Crediticio.ipynb)
+
+**Tecnologías:**  
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white)
+![Scikit--learn](https://img.shields.io/badge/Scikit--learn-F7931E?logo=scikitlearn&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?logo=plotly&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-9A9A9A?logoColor=white)
+
 
   
 
