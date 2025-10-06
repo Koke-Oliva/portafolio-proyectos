@@ -48,10 +48,22 @@ Aquí encontrarás una selección de mis trabajos más relevantes, que abarcan d
 
 ---
 
-### 📊 [Análisis de Ventas con Power BI](https://github.com/Koke-Oliva/mi-cv)  
-Creación de un dashboard interactivo para explorar ventas, márgenes y tendencias comerciales.  
+### 🧠 [Clasificación de Notas Clínicas con BERT (NLP - Español)](https://github.com/Koke-Oliva/nlp-notas-clinicas-bert)
 
-**Tecnologías:** ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black) ![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=sql&logoColor=white)  
+[<img src="images/notas_clinicas.png" alt="Notas Clínicas BERT" width="400"/>](https://github.com/Koke-Oliva/nlp-notas-clinicas-bert)
+
+**Contexto:** Modelo de procesamiento de lenguaje natural aplicado a notas clínicas médicas en español.  
+**Objetivo:** Clasificación de severidad (leve, moderado, severo) utilizando BERT.  
+**Evaluación:** F1 Macro ≈ **0.84**, buen desempeño con control de sesgos.  
+
+**Tecnologías:**  
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![Transformers](https://img.shields.io/badge/Transformers-ffcc00?logo=huggingface&logoColor=black)
+![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?logo=scikitlearn&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?logo=plotly&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-7c9ebf?logo=seaborn&logoColor=white)
+ 
 
 ---
 
