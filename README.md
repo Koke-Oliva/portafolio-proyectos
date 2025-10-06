@@ -48,8 +48,7 @@ Aquí encontrarás una selección de mis trabajos más relevantes, que abarcan d
 
 ---
 
-### 🧠 [Clasificación de Notas Clínicas con BERT (NLP - Español)](https://github.com/Koke-Oliva/nlp-notas-clinicas-bert)
-
+### 🧠 Clasificación de Notas Clínicas con BERT (NLP - Español)
 [<img src="images/notas_clinicas.png" alt="Notas Clínicas BERT" width="520"/>](https://github.com/Koke-Oliva/nlp-notas-clinicas-bert)
 
 **Contexto:** Modelo de procesamiento de lenguaje natural aplicado a notas clínicas médicas en español.  
@@ -87,8 +86,6 @@ Aquí encontrarás una selección de mis trabajos más relevantes, que abarcan d
 Consultas SQL avanzadas para extracción y análisis de datos, con optimización de queries y ejemplos prácticos.  
 
 **Tecnologías:** ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)  
-
----  
 
 ---
 
