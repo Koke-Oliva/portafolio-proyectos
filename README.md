@@ -77,8 +77,6 @@ Aquí encontrarás una selección de mis trabajos más relevantes, que abarcan d
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![Transformers](https://img.shields.io/badge/Transformers-FF6F00?logo=huggingface&logoColor=white)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?logo=scikitlearn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?logo=ubuntu&logoColor=white)
 ![WSL2](https://img.shields.io/badge/WSL2-0078D6?logo=windows-terminal&logoColor=white)
 
