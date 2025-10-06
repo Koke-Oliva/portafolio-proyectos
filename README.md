@@ -65,7 +65,7 @@ Aquí encontrarás una selección de mis trabajos más relevantes, que abarcan d
 ![Seaborn](https://img.shields.io/badge/Seaborn-7c9ebf?logo=seaborn&logoColor=white)
 
 ---
- ### ☁️ [MLOps en la Nube: Despliegue Automatizado de un Modelo Predictivo Real](https://github.com/Koke-Oliva/breast_cancer_api)
+ ### ☁️ [MLOps en la Nube: Despliegue Automatizado de un Modelo Predictivo](https://github.com/Koke-Oliva/breast_cancer_api)
 
 <a href="https://github.com/Koke-Oliva/breast_cancer_api">
   <img src="./images/ml_ops.png" alt="MLOps" width="420">
