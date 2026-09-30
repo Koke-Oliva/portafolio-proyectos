@@ -1,116 +1,234 @@
-# 📂 Portafolio de Proyectos  
+# Jorge Auad Oliva — Portafolio de Datos, BI y Machine Learning
 
-Bienvenido/a a mi portafolio de proyectos en **Ciencia de Datos y Machine Learning**.  
-Aquí encontrarás una selección de mis trabajos más relevantes, que abarcan desde análisis exploratorio hasta modelos predictivos y proyectos de NLP.  
+**Ingeniero Estadístico | Analista de Datos / BI | Data Science & Machine Learning Junior**
 
----
+Portafolio orientado a roles junior en datos, analítica y Machine Learning. Los proyectos priorizan **reproducibilidad, validación metodológica, explicabilidad, calidad de datos y comunicación técnica**.
 
-## Información de contacto
-
-**Jorge Auad Oliva — Concepción, Chile**
-
-<a href="mailto:jorgeauad.oliva@gmail.com?subject=Contacto%20Portafolio" target="_blank">
-  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
-</a>
-<a href="https://www.linkedin.com/in/jorge-auad-oliva/" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-</a>
+📍 San Pedro de la Paz, Biobío, Chile  
+🔗 [LinkedIn](https://www.linkedin.com/in/jorge-auad-oliva/) · ✉️ [Contacto por correo](mailto:jorgeauad.oliva@gmail.com?subject=Contacto%20desde%20GitHub)
 
 ---
 
+## Vista rápida para reclutadores
 
-## 🚀 Proyectos Destacados  
-
-### 🧠 [Interpretabilidad de Scoring Crediticio](https://github.com/Koke-Oliva/Interpretabilidad-de-Scoring-Crediticio)
-
-<a href="https://github.com/Koke-Oliva/Interpretabilidad-de-Scoring-Crediticio">
-  <img src="images/score_crediticio.jpeg" alt="Interpretabilidad de Scoring Crediticio" width="520">
-</a>
-
-**Contexto:** proyecto de clasificación para *credit scoring* con datos públicos (OpenML).  
-**Dataset:** `credit` (v1).  
-**Enfoque:** split estratificado, escalado con `StandardScaler`, **Regresión Logística (L1/L2)** y **Random Forest** con **GridSearchCV** (`cv=5`, `roc_auc`).  
-**Resultado:** el **Random Forest tunado** lidera (**ROC-AUC ≈ 0.839**, **F1 ≈ 0.760**).
-
-
-
-**Librerías:** 
-![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?logo=scikitlearn&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?logo=plotly&logoColor=white)
-![Seaborn](https://img.shields.io/badge/Seaborn-7c9ebf?logo=python&logoColor=white)
-![OpenML](https://img.shields.io/badge/OpenML-FF8C00?logo=openai&logoColor=white)
-
-
-
-
-
-  
+| Proyecto | Foco | Evidencia técnica |
+|---|---|---|
+| [Interpretabilidad de Scoring Crediticio](https://github.com/Koke-Oliva/Interpretabilidad-de-Scoring-Crediticio) | ML clásico + explicabilidad | ROC-AUC **0.8394**, PR-AUC **0.8287**, SHAP/LIME, threshold OOF, CV sin leakage |
+| [Notas Clínicas con BETO](https://github.com/Koke-Oliva/nlp-notas-clinicas-bert) | NLP + validación robusta | Auditoría de shortcuts, TF-IDF/NB, Word2Vec/RF, BETO, LIME, template-held-out validation |
+| [Breast Cancer API](https://github.com/Koke-Oliva/breast_cancer_api) | MLOps + API + CI/CD | F1 **0.9512**, ROC-AUC **0.9974**, model card, Flask, Docker, smoke tests, GHCR |
+| [Admisión Escolar en R](https://github.com/Koke-Oliva/admision-escolar-r) | Calidad de datos + KPIs | Validación, consolidación, indicadores y reporte automatizado |
+| [Monitoreo MCA](https://github.com/Koke-Oliva/monitoreo-mca-alertas-tempranas) | Analítica operativa | Python + SQLite + Excel + alertas tempranas + informe ejecutivo |
+| [Ventas Power BI](https://github.com/Koke-Oliva/analisis-ventas-powerbi) | BI | Power Query, DAX, visualización e informe interactivo |
 
 ---
 
-### 🧠 Clasificación de Notas Clínicas con BERT (NLP - Español)
-[<img src="images/notas_clinicas.png" alt="Notas Clínicas BERT" width="520"/>](https://github.com/Koke-Oliva/nlp-notas-clinicas-bert)
+# Proyectos destacados — Machine Learning y MLOps
 
-**Contexto:** Modelo de procesamiento de lenguaje natural aplicado a notas clínicas médicas en español.  
-**Objetivo:** Clasificación de severidad (leve, moderado, severo) utilizando BERT.  
-**Evaluación:** F1 Macro ≈ **0.84**, buen desempeño con control de sesgos.  
+## 1) Interpretabilidad de Scoring Crediticio
 
-**Librerías:**  
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![Transformers](https://img.shields.io/badge/Transformers-ffcc00?logo=huggingface&logoColor=black)
-![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?logo=scikitlearn&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?logo=plotly&logoColor=white)
-![Seaborn](https://img.shields.io/badge/Seaborn-7c9ebf?logo=seaborn&logoColor=white)
+[<img src="images/score_crediticio.jpeg" alt="Interpretabilidad de Scoring Crediticio" width="560">](https://github.com/Koke-Oliva/Interpretabilidad-de-Scoring-Crediticio)
 
----
- ### ☁️ [MLOps en la Nube: Despliegue Automatizado de un Modelo Predictivo](https://github.com/Koke-Oliva/breast_cancer_api)
+**Problema:** clasificación binaria de riesgo de morosidad con datos públicos de OpenML.
 
-<a href="https://github.com/Koke-Oliva/breast_cancer_api">
-  <img src="./images/ml_ops.png" alt="MLOps" width="420">
-</a>
+**Qué demuestra:**
+- separación train/test estratificada;
+- `Pipeline` para evitar leakage en validación cruzada;
+- Regresión Logística regularizada y Random Forest;
+- `GridSearchCV` + `StratifiedKFold`;
+- Accuracy, Precision, Recall, F1, ROC-AUC y PR-AUC;
+- análisis de umbral usando predicciones out-of-fold;
+- interpretabilidad global/local mediante **SHAP y LIME**;
+- diagnóstico por subgrupos de edad;
+- ejecución end-to-end validada con GitHub Actions.
 
-**Contexto:** proyecto de MLOps que implementa un flujo completo de *Machine Learning* con **Random Forest**, exponiendo el modelo como **API REST** mediante Flask, **contenedorizado con Docker** y con integración continua vía **GitHub Actions (CI/CD)**.  
+**Resultados principales:**
 
-**Ciclo de vida:** entrenamiento del modelo, creación de API, contenedorización y despliegue automatizado en **GitHub Container Registry (GHCR)**.  
+| Modelo / configuración | ROC-AUC | PR-AUC | Recall | F1 |
+|---|---:|---:|---:|---:|
+| Random Forest optimizado | **0.8394** | **0.8287** | 0.7535 | 0.7599 |
+| Random Forest — threshold OOF 0.43 | 0.8394 | 0.8287 | **0.8115** | **0.7694** |
+| Regresión Logística optimizada | 0.7950 | 0.8094 | 0.5915 | 0.6813 |
 
-**Tecnologías y Librerías:**  
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?logo=scikitlearn&logoColor=white)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?logo=ubuntu&logoColor=white)
-![WSL2](https://img.shields.io/badge/WSL2-0078D6?logo=windows-terminal&logoColor=white)
+**Stack:** Python · pandas · scikit-learn · SHAP · LIME · Matplotlib · Jupyter · GitHub Actions
 
+➡️ [Ver repositorio y notebook ejecutado](https://github.com/Koke-Oliva/Interpretabilidad-de-Scoring-Crediticio)
 
 ---
 
-### 🗄️ [Manejo de Queries en SQL Server](https://github.com/Koke-Oliva/sql-server-gestion-colegio)  
-Consultas SQL avanzadas para extracción y análisis de datos, con optimización de queries y ejemplos prácticos.  
+## 2) Clasificación de Notas Clínicas con BETO
 
-**Tecnologías:** ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)  
+[<img src="images/notas_clinicas.png" alt="Clasificación de notas clínicas con BETO" width="560">](https://github.com/Koke-Oliva/nlp-notas-clinicas-bert)
+
+**Problema:** clasificación multiclase de gravedad (`leve`, `moderado`, `severo`) sobre 200 notas clínicas sintéticas.
+
+El valor principal de este proyecto no es una métrica perfecta, sino la **auditoría de generalización**. El análisis detectó duplicados, target proxies y familias de plantillas que inflaban los resultados de un split aleatorio.
+
+**Qué demuestra:**
+- EDA y auditoría de calidad del corpus;
+- detección de duplicados y shortcuts;
+- comparación **TF-IDF + Naive Bayes**, **Word2Vec + Random Forest** y **BETO**;
+- validación aleatoria vs. **template-held-out validation**;
+- separación correcta train/validation/test para BETO;
+- análisis de errores;
+- desempeño por género y edad como auditoría descriptiva;
+- explicabilidad local con **LIME**;
+- reproducibilidad con GitHub Actions.
+
+**Hallazgo metodológico central:**
+
+| Modelo | Macro F1 — CV aleatoria | Macro F1 — templates no vistos |
+|---|---:|---:|
+| TF-IDF + MultinomialNB | **1.0000** | **0.2236** |
+| Word2Vec + Random Forest | **0.9789** | **0.1365** |
+
+En el holdout robusto, BETO obtuvo **Macro F1 = 0.1181** y recall de `severo = 0.00`. Esto muestra que el 100% del experimento original no representaba generalización clínica.
+
+**Stack:** Python · spaCy · gensim/Word2Vec · scikit-learn · TensorFlow · Hugging Face Transformers · BETO · LIME
+
+> Dataset sintético y proyecto formativo. No corresponde a un sistema clínico real.
+
+➡️ [Ver repositorio y análisis de shortcuts](https://github.com/Koke-Oliva/nlp-notas-clinicas-bert)
 
 ---
 
-## 🧩 Microproyectos  
-- 📌 Clustering jerárquico con Python.  
-- 📌 Ejercicios SQL con queries avanzadas.  
-- 📌 Modelos de regresión logística y árboles de decisión.  
+## 3) Breast Cancer API — MLOps end-to-end
+
+[<img src="images/ml_ops.png" alt="Breast Cancer API MLOps" width="500">](https://github.com/Koke-Oliva/breast_cancer_api)
+
+**Problema:** servir un modelo de clasificación como API REST reproducible y testeada.
+
+**Qué demuestra:**
+- entrenamiento reproducible con Random Forest;
+- `GridSearchCV` + validación cruzada estratificada;
+- métricas de clasificación y calibración;
+- **model card** versionada;
+- contrato de entrada para 30 features;
+- validación de schema, tipos, finitud, rangos y batch;
+- Flask + Gunicorn;
+- Docker con usuario no-root y `HEALTHCHECK`;
+- tests de endpoints;
+- Docker smoke tests reales;
+- CI/CD con GitHub Actions;
+- publicación automática en GHCR.
+
+**Resultados del modelo:**
+
+| Métrica | Test |
+|---|---:|
+| Accuracy | **0.9649** |
+| Precision — malignant | **0.9750** |
+| Recall — malignant | **0.9286** |
+| F1 — malignant | **0.9512** |
+| ROC-AUC | **0.9974** |
+| PR-AUC | **0.9957** |
+| Brier score ↓ | **0.0285** |
+
+**Stack:** Python · scikit-learn · Flask · Gunicorn · Docker · pytest · GitHub Actions · GHCR
+
+> Proyecto demostrativo de MLOps. No es un dispositivo médico ni un sistema para decisiones clínicas.
+
+➡️ [Ver API, model card y pipeline CI/CD](https://github.com/Koke-Oliva/breast_cancer_api)
 
 ---
 
-## 🎓 Certificaciones y Formación  
-- **Especialización en Machine Learning (198 hrs)** – Beca Talento Digital para Chile – Dictada por Kibernum Capacitación S.A.  
-- **Bootcamp Full Stack Java (480 hrs)** – Beca Talento Digital para Chile - Dictada por Desafío Latam.  
-- **Diplomado en Data Science & Machine Learning** – PUCV.  
-- Cursos adicionales: Power BI, SQL.  
+# Proyectos de Datos, BI y Monitoreo
+
+## Admisión Escolar — Validación, Monitoreo e Indicadores en R
+
+**Foco:** calidad de datos, integración de tablas, reglas de consistencia, indicadores operativos y reporte reproducible.
+
+- datos simulados;
+- scripts en R;
+- consolidación de fuentes;
+- KPIs por región y nivel;
+- reporte automatizado en R Markdown/HTML.
+
+➡️ [Ver repositorio](https://github.com/Koke-Oliva/admision-escolar-r)
 
 ---
 
-## 🌐 Conecta conmigo  
-<a href="https://www.linkedin.com/in/jorge-auad-oliva/" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white" alt="LinkedIn">
-</a>  
+## Monitoreo MCA — Alertas Tempranas
 
-<a href="mailto:jorgeauad.oliva@gmail.com?subject=Contacto%20desde%20GitHub" target="_blank">
-  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
-</a>  
+**Foco:** transformar registros operativos sintéticos en información útil para seguimiento y gestión.
+
+- Python + pandas + NumPy;
+- validación de calidad de información;
+- consolidación de bases;
+- indicadores de gestión;
+- reglas de alertas tempranas;
+- SQLite + consultas SQL;
+- salidas Excel/CSV;
+- informe ejecutivo publicado con GitHub Pages.
+
+➡️ [Ver repositorio](https://github.com/Koke-Oliva/monitoreo-mca-alertas-tempranas)  
+➡️ [Ver informe ejecutivo](https://koke-oliva.github.io/monitoreo-mca-alertas-tempranas/)
+
+---
+
+## SQL Server — Gestión de Datos Escolares
+
+**Foco:** modelado relacional y consultas SQL para extracción y análisis.
+
+- creación de base y tablas;
+- relaciones según modelo entidad-relación;
+- filtros, manejo de nulos y agregaciones;
+- consultas sobre estudiantes, profesores, cursos y asignaciones.
+
+➡️ [Ver repositorio](https://github.com/Koke-Oliva/sql-server-gestion-colegio)
+
+---
+
+## Power BI — Análisis de Ventas
+
+**Foco:** transformación, modelado y visualización de información comercial.
+
+- importación desde CSV y Excel;
+- transformación de datos;
+- medidas y tablas calculadas con DAX;
+- informe de tres páginas;
+- análisis por segmento, país y métricas de ventas/deuda.
+
+➡️ [Ver repositorio](https://github.com/Koke-Oliva/analisis-ventas-powerbi)
+
+---
+
+# Competencias que evidencia este portafolio
+
+### Data Science / Machine Learning
+Python · pandas · NumPy · scikit-learn · clasificación · validación cruzada · tuning · evaluación · explainability · SHAP · LIME
+
+### NLP
+TF-IDF · spaCy · Word2Vec · Transformers · BETO · análisis de errores · shortcut detection
+
+### MLOps / Ingeniería
+Flask · REST API · Docker · Gunicorn · pytest · GitHub Actions · CI/CD · GHCR · model cards · reproducibilidad
+
+### Datos / BI
+SQL · SQL Server · SQLite · R · Power BI · DAX · Excel · Power Query · validación de datos · KPIs · reportería
+
+### Buenas prácticas aplicadas
+- separación rigurosa entre entrenamiento, validación y test;
+- prevención de leakage;
+- métricas adecuadas al problema;
+- análisis de limitaciones y riesgo de modelo;
+- documentación orientada a reproducibilidad;
+- pruebas automatizadas;
+- uso de datos sintéticos cuando corresponde;
+- comunicación diferenciada para público técnico y no técnico.
+
+---
+
+# Formación técnica seleccionada
+
+- **Ingeniero Estadístico** — Universidad del Bío-Bío.
+- **Especialización en Machine Learning (198 h)** — IT Academy / Kibernum, Talento Digital para Chile.
+- **Bootcamp Ciencia de Datos (168 h)** — IT Academy / Kibernum, Talento Digital para Chile.
+- **Diplomado en Data Science** — PUCV.
+- Formación complementaria en **SQL Server, Power BI, Excel/Power Query e IA generativa**.
+
+---
+
+## Contacto
+
+[LinkedIn](https://www.linkedin.com/in/jorge-auad-oliva/) · [GitHub](https://github.com/Koke-Oliva) · [Correo](mailto:jorgeauad.oliva@gmail.com?subject=Contacto%20desde%20GitHub)
+
