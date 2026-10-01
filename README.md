@@ -93,7 +93,7 @@ En el holdout robusto, BETO obtuvo **Macro F1 = 0.1181** y recall de `severo = 0
 
 ## 3) Breast Cancer API — MLOps end-to-end
 
-[<img src="images/ml_ops.png" alt="Breast Cancer API MLOps" width="500">](https://github.com/Koke-Oliva/breast_cancer_api)
+[<img src="images/ml_ops_redesign.svg" alt="Breast Cancer API MLOps" width="500">](https://github.com/Koke-Oliva/breast_cancer_api)
 
 **Problema:** servir un modelo de clasificación como API REST reproducible y testeada.
 
