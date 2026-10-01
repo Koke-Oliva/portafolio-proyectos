@@ -16,14 +16,14 @@ Portafolio orientado a roles junior en datos, analítica y Machine Learning. Los
 | [Interpretabilidad de Scoring Crediticio](https://github.com/Koke-Oliva/Interpretabilidad-de-Scoring-Crediticio) | ML clásico + explicabilidad | ROC-AUC **0.8394**, PR-AUC **0.8287**, SHAP/LIME, threshold OOF, CV sin leakage |
 | [Notas Clínicas con BETO](https://github.com/Koke-Oliva/nlp-notas-clinicas-bert) | NLP + validación robusta | Auditoría de shortcuts, TF-IDF/NB, Word2Vec/RF, BETO, LIME, template-held-out validation |
 | [Breast Cancer API](https://github.com/Koke-Oliva/breast_cancer_api) | MLOps + API + CI/CD | F1 **0.9512**, ROC-AUC **0.9974**, model card, Flask, Docker, smoke tests, GHCR |
-| [HESPE — PySpark ML Pipeline](https://github.com/Koke-Oliva/hespe-pyspark-student-performance) | Big Data / Spark ML | PySpark, Spark ML Pipeline, CV estratificado, tuning, análisis multiclase y métricas ordinales |
+| [HESPE — Data Science con PySpark y Spark ML](https://github.com/Koke-Oliva/hespe-pyspark-student-performance) | Data Science + Spark | EDA con Spark, PySpark ML Pipelines, CV estratificado, tuning, análisis multiclase y métricas ordinales |
 | [Admisión Escolar en R](https://github.com/Koke-Oliva/admision-escolar-r) | Calidad de datos + KPIs | Validación, consolidación, indicadores y reporte automatizado |
 | [Monitoreo MCA](https://github.com/Koke-Oliva/monitoreo-mca-alertas-tempranas) | Analítica operativa | Python + SQLite + Excel + alertas tempranas + informe ejecutivo |
 | [Ventas Power BI](https://github.com/Koke-Oliva/analisis-ventas-powerbi) | BI | Power Query, DAX, visualización e informe interactivo |
 
 ---
 
-# Proyectos destacados — Machine Learning y MLOps
+# Proyectos destacados — Data Science, Machine Learning y MLOps
 
 ## 1) Interpretabilidad de Scoring Crediticio
 
@@ -132,29 +132,34 @@ En el holdout robusto, BETO obtuvo **Macro F1 = 0.1181** y recall de `severo = 0
 
 ---
 
-# Proyectos de Datos, BI y Monitoreo
+## 4) HESPE — Data Science con PySpark y Spark ML
 
-## HESPE — Student Performance con PySpark
+[<img src="https://raw.githubusercontent.com/Koke-Oliva/hespe-pyspark-student-performance/main/assets/hespe_data_science_pyspark.jpg" alt="HESPE — Data Science con PySpark y Spark ML" width="560">](https://github.com/Koke-Oliva/hespe-pyspark-student-performance)
 
-**Foco:** clasificación multiclase de rendimiento estudiantil utilizando **PySpark / Spark ML** y un pipeline reproducible de preprocesamiento, validación cruzada y tuning.
+**Problema:** analizar y clasificar el rendimiento académico final mediante un flujo reproducible de Data Science construido sobre PySpark y Spark ML.
 
-- 145 estudiantes, 31 predictores y 8 categorías de nota;
-- schema explícito y EDA con transformaciones Spark;
-- split y **Cross-Validation estratificados**;
+**Qué demuestra:**
+- schema explícito y EDA con transformaciones/agregaciones en Spark;
+- preparación de variables nominales y ordinales;
+- split train/test y **Cross-Validation estratificados**;
 - baseline con Logistic Regression multinomial;
 - Random Forest con `ParamGridBuilder` + `CrossValidator`;
 - Accuracy, Weighted/Macro F1, métricas por clase y matriz de confusión;
-- métricas ordinales para considerar la distancia entre categorías;
+- métricas ordinales para considerar distancia entre categorías;
 - feature importance agregada a variables originales;
-- CI end-to-end con Java 17 + PySpark en GitHub Actions.
+- ejecución end-to-end con Java 17 + PySpark en GitHub Actions.
 
 **Resultado principal:** Random Forest tuned con Accuracy **0.3793**, Weighted F1 **0.3150**, Macro F1 **0.2839** y **62.07%** de predicciones a ±1 categoría.
 
-> El dataset académico es demasiado pequeño para demostrar una ventaja de throughput de Spark; el proyecto evidencia diseño de pipelines distribuibles y criterio metodológico.
+**Stack:** Python · PySpark · Apache Spark · Spark ML · pandas · Matplotlib · seaborn · GitHub Actions
 
-➡️ [Ver repositorio HESPE PySpark](https://github.com/Koke-Oliva/hespe-pyspark-student-performance)
+> El dataset académico contiene 145 observaciones; el proyecto demuestra diseño de pipelines distribuibles y criterio metodológico, no una ventaja de throughput por volumen.
+
+➡️ [Ver repositorio HESPE — Data Science con PySpark](https://github.com/Koke-Oliva/hespe-pyspark-student-performance)
 
 ---
+
+# Proyectos de Datos, BI y Monitoreo
 
 ## Admisión Escolar — Validación, Monitoreo e Indicadores en R
 
@@ -218,7 +223,7 @@ En el holdout robusto, BETO obtuvo **Macro F1 = 0.1181** y recall de `severo = 0
 # Competencias que evidencia este portafolio
 
 ### Data Science / Machine Learning
-Python · pandas · NumPy · scikit-learn · clasificación · validación cruzada · tuning · evaluación · explainability · SHAP · LIME
+Python · pandas · NumPy · scikit-learn · PySpark · Apache Spark · Spark ML · clasificación · validación cruzada · tuning · evaluación · explainability · SHAP · LIME
 
 ### NLP
 TF-IDF · spaCy · Word2Vec · Transformers · BETO · análisis de errores · shortcut detection
