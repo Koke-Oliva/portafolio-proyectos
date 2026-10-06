@@ -19,6 +19,7 @@ Portafolio orientado a roles junior en datos, analítica y Machine Learning. Los
 | [HESPE — Data Science con PySpark y Spark ML](https://github.com/Koke-Oliva/hespe-pyspark-student-performance) | Data Science + Spark | EDA con Spark, PySpark ML Pipelines, CV estratificado, tuning, análisis multiclase y métricas ordinales |
 | [Admisión Escolar en R](https://github.com/Koke-Oliva/admision-escolar-r) | Calidad de datos + KPIs | Validación, consolidación, indicadores y reporte automatizado |
 | [Monitoreo MCA](https://github.com/Koke-Oliva/monitoreo-mca-alertas-tempranas) | Analítica operativa | Python + SQLite + Excel + alertas tempranas + informe ejecutivo |
+| [SQL Server — Control de Pacientes](https://github.com/Koke-Oliva/sql-server-control-pacientes) | T-SQL relacional | INNER/LEFT JOIN, GROUP BY/HAVING, fechas, subconsultas, CREATE VIEW y validaciones |
 | [SQL Server — Gestión de Datos Escolares](https://github.com/Koke-Oliva/sql-server-gestion-colegio) | Implementación relacional + T-SQL | 6 tablas, 6 FK, filtros, NULL, ORDER BY, COUNT/GROUP BY y controles de calidad |
 | [Ventas Power BI](https://github.com/Koke-Oliva/analisis-ventas-powerbi) | BI | Power Query, DAX, visualización e informe interactivo |
 
@@ -191,6 +192,22 @@ En el holdout robusto, BETO obtuvo **Macro F1 = 0.1181** y recall de `severo = 0
 
 ➡️ [Ver repositorio](https://github.com/Koke-Oliva/monitoreo-mca-alertas-tempranas)  
 ➡️ [Ver informe ejecutivo](https://koke-oliva.github.io/monitoreo-mca-alertas-tempranas/)
+
+---
+
+## SQL Server — Control de Pacientes
+
+**Foco:** consultas relacionales T-SQL sobre un modelo de pacientes, odontólogos, citas, comunas y especialidades.
+
+- `INNER JOIN` y `LEFT JOIN`;
+- agregaciones con `COUNT`, `GROUP BY` y `HAVING`;
+- filtrado de valores `datetime`;
+- subconsultas correlacionadas y escalares;
+- creación de `View_Cita_Completa`;
+- versión revisada de portafolio separada de la entrega académica original;
+- controles posteriores de volumen, duplicados e integridad referencial.
+
+➡️ [Ver repositorio](https://github.com/Koke-Oliva/sql-server-control-pacientes)
 
 ---
 
