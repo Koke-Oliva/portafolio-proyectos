@@ -19,6 +19,7 @@ Portafolio orientado a roles junior en datos, analítica y Machine Learning. Los
 | [HESPE — Data Science con PySpark y Spark ML](https://github.com/Koke-Oliva/hespe-pyspark-student-performance) | Data Science + Spark | EDA con Spark, PySpark ML Pipelines, CV estratificado, tuning, análisis multiclase y métricas ordinales |
 | [Admisión Escolar en R](https://github.com/Koke-Oliva/admision-escolar-r) | Calidad de datos + KPIs | Validación, consolidación, indicadores y reporte automatizado |
 | [Monitoreo MCA](https://github.com/Koke-Oliva/monitoreo-mca-alertas-tempranas) | Analítica operativa | Python + SQLite + Excel + alertas tempranas + informe ejecutivo |
+| [SQL Server — Gestión de Datos Escolares](https://github.com/Koke-Oliva/sql-server-gestion-colegio) | Implementación relacional + T-SQL | 6 tablas, 6 FK, filtros, NULL, ORDER BY, COUNT/GROUP BY y controles de calidad |
 | [Ventas Power BI](https://github.com/Koke-Oliva/analisis-ventas-powerbi) | BI | Power Query, DAX, visualización e informe interactivo |
 
 ---
